@@ -4,6 +4,21 @@ A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://git
 
 This project is a 2D game where players control an andventurer exploring a detailed map filled with obstacles and challenges. Built using an Entity Component System (ECS) architecture with Ashley ECS and leveraging Box2D for physics-based interactions, the game takes inspiration in titles like Vampire Survivors and Tiny Survivors.
 
+## Table of Contents
+
+- [Platforms](#platforms)
+- [Gradle](#gradle)
+- [Features](#features)
+- [Installation](#installation)
+- [Gameplay](#gameplay)
+- [Project Structure](#project-structure)
+- [Dependencies](#dependencies)
+- [Tiled Map Integration](#tiled-map-integration)
+- [Known Issues](#known-issues)
+- [Future Enhancements](#future-enhancements)
+- [Contributors](#contributors)
+- [License](#license)
+  
 ## Platforms
 
 - `core`: Main module with the application logic shared by all platforms.
@@ -76,16 +91,16 @@ The project follows a modular structure, separating logic, rendering, and platfo
 For a complete representation of the structure, please refer to `PROJECT TREE`.
 
 
-
-## Technical Details 
-
 ### Dependencies 
+
 The following libraries are used in the project:
 - LibGDX: Core game development framework.
 - Ashley ECS: Entity Component System for game logic.
 - Box2D: Physics engine for realistic movements and interactions.
 - Tiled Maps: Integration for designing levels with Tiled Editor
-### Tiled Map Integration:
+- 
+### Tiled Map Integration
+
 - Each level is designed using Tiled (.tmx format).
 - Obstacles and objects are defined in separate layers (Obstacles, Decorations).
 - Physics bodies are automatically generated from map objects for collision detection.
@@ -103,9 +118,9 @@ The following libraries are used in the project:
 - Optimize rendering performance for larger maps.
 
 ## Contributors 
-- Oriane: UI and sound implementation, experience and health systems.
-- Paul: ECS development and physics systems.
-- Terence: Tiled map and camera integration, collision systems.
+- [Oriane:](https://github.com/orianecorral) UI and sound implementation, experience and health systems.
+- [Paul:](https://github.com/PaulDecauchy) ECS development and physics systems.
+- [Terence:](https://github.com/Devkniz) Tiled map and camera integration, collision systems.
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
